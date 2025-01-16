@@ -1,0 +1,3132 @@
+{
+  "type": "object",
+  "properties": {
+    "Unit": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "Size": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "TenantName": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "Use": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 40
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "Exclusive": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "NoticeStreet": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "NoticeCity": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "NoticeState": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "NoticeZip": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "PrimaryTenantContactFirst": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "PrimaryTenantContactLast": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "PrimaryTenantContactEmail": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "email"
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "PrimaryTenantContactOffice": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "PrimaryTenantContactMobile": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "SecondaryTenantContact": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "SecondaryTenantContactFirst": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "SecondaryTenantContactLast": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "SecondaryTenantContactEmail": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "email"
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "SecondaryTenantContactOffice": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "SecondaryTenantContactMobile": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "LeaseType": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "NNN",
+            "Gross",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "BaseYear": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "Deposit": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "DepositOnFile": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "AdvanceRent": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "AdvanceRentOnFile": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "MonthlyAdditional": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "CommencementDate": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "ProRata": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "CPI": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "CPInote": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 75
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "PercentageRent": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "PercentageRentNotes": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 100
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "PercentageRentReporting": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Annually",
+            "Semi-Annually",
+            "Quarterly",
+            "Monthly",
+            "Never",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "DueDate": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "LateFee": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "LateFeeDate": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "LateFeeBasis": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Dollar",
+            "Percentage",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "LateFeeAmount": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "FullMonth": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "NotFullMonth": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionNotice": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "InitialRate": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "InitialTerm": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "InitialTermChange": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "InitialChanges": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "InitialMonthTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "InitialRentTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "InitialMonthThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "InitialRentThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "Option": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "Options": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionOne": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionOneChange": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionOneChanges": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionOneRentStart": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionOneStartTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionOneRentTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionOneStartThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionOneRentThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionTwoChange": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionTwoChanges": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionTwoRentStart": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionTwoStartTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionTwoRentTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionTwoStartThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionTwoRentThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionThreeChange": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionThreeChanges": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionThreeRentStart": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionThreeStartTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionThreeRentTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionThreeStartThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionThreeRentThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFour": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFourChange": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFourChanges": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFourRentStart": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFourStartTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFourRentTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFourStartThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFourRentThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFifth": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFifthChange": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFifthChanges": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFifthRentStart": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFifthStartTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFifthRentTwo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFifthStartThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "OptionFifthRentThree": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "CAMEstimate": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "Insurance": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "HVAC": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Never",
+            "Monthly",
+            "Quarterly",
+            "Semi-Annually",
+            "Annually",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "Pest": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Never",
+            "Monthly",
+            "Quarterly",
+            "Semi-Annually",
+            "Annually",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "ServiceCharges": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 100
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "ServiceChargeAmount": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "Utilities": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "UtilitiesText": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 100
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "UtilityCollection": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "CAP": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Yes",
+            "No",
+            null
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "CAPText": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 100
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    },
+    "CAPPage": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sentences": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "page_number": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "value",
+        "sentences",
+        "page_number"
+      ]
+    }
+  },
+  "required": [
+    "Unit",
+    "Size",
+    "TenantName",
+    "Use",
+    "Exclusive",
+    "NoticeStreet",
+    "NoticeCity",
+    "NoticeState",
+    "NoticeZip",
+    "PrimaryTenantContactFirst",
+    "PrimaryTenantContactLast",
+    "PrimaryTenantContactEmail",
+    "PrimaryTenantContactOffice",
+    "PrimaryTenantContactMobile",
+    "Deposit",
+    "DepositOnFile",
+    "AdvanceRent",
+    "AdvanceRentOnFile",
+    "MonthlyAdditional",
+    "CommencementDate",
+    "ProRata",
+    "CPI",
+    "CPInote",
+    "PercentageRent",
+    "PercentageRentNotes",
+    "PercentageRentReporting",
+    "DueDate",
+    "LateFee",
+    "LateFeeDate",
+    "LateFeeBasis",
+    "LateFeeAmount",
+    "FullMonth",
+    "NotFullMonth",
+    "OptionNotice",
+    "InitialRate",
+    "InitialTerm",
+    "InitialTermChange",
+    "InitialChanges",
+    "InitialMonthTwo",
+    "InitialRentTwo",
+    "InitialMonthThree",
+    "InitialRentThree",
+    "Option",
+    "Options",
+    "OptionOne",
+    "OptionOneChange",
+    "OptionOneChanges",
+    "OptionOneRentStart",
+    "OptionOneStartTwo",
+    "OptionOneRentTwo",
+    "OptionOneStartThree",
+    "OptionOneRentThree",
+    "OptionTwo",
+    "OptionTwoChange",
+    "OptionTwoChanges",
+    "OptionTwoRentStart",
+    "OptionTwoStartTwo",
+    "OptionTwoRentTwo",
+    "OptionTwoStartThree",
+    "OptionTwoRentThree",
+    "OptionThree",
+    "OptionThreeChange",
+    "OptionThreeChanges",
+    "OptionThreeRentStart",
+    "OptionThreeStartTwo",
+    "OptionThreeRentTwo",
+    "OptionThreeStartThree",
+    "OptionThreeRentThree",
+    "OptionFour",
+    "OptionFour",
+    "OptionFifth",
+    "OptionFifthChange",
+    "OptionFifthChanges",
+    "OptionFifthRentStart",
+    "OptionFifthStartTwo",
+    "OptionFifthRentTwo",
+    "OptionFifthStartThree",
+    "OptionFifthRentThree",
+    "CAMEstimate",
+    "Insurance",
+    "HVAC",
+    "Pest",
+    "ServiceCharges",
+    "ServiceChargeAmount",
+    "Utilities",
+    "UtilitiesText",
+    "UtilityCollection",
+    "CAP",
+    "CAPText",
+    "CAPPage"
+  ],
+  "additionalProperties": false
+}
