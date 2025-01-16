@@ -13,7 +13,7 @@ This project demonstrates API integration with ChatGPT to manage conversations, 
 - **ChatGPT API**: Integration for conversational AI capabilities.
 
 ## Project Author
-This project is created and maintained by **Kundan Kumar**.
+This project is created and maintained by **Priya Kumari**.
 
 ## Getting Started
 
